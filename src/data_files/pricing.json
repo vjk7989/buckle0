@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Starter",
+    "price": "Free",
+    "description": "Perfect for individuals getting started with Hyper Protocol",
+    "features": [
+      "Access to basic RAWs protocol",
+      "Up to 100 compute cycles/month",
+      "Standard staking rewards",
+      "Community support",
+      "Basic documentation access"
+    ],
+    "cta": "Get Started",
+    "popular": false
+  },
+  {
+    "name": "Professional",
+    "price": "$99",
+    "period": "/month",
+    "description": "Ideal for developers and small teams building on Hyper",
+    "features": [
+      "Full RAWs protocol access",
+      "Unlimited compute cycles",
+      "Priority staking rewards",
+      "Advanced SDK access",
+      "Priority support",
+      "Custom revenue splits",
+      "Multi-chain operations"
+    ],
+    "cta": "Start Free Trial",
+    "popular": true
+  },
+  {
+    "name": "Enterprise",
+    "price": "Custom",
+    "description": "For large organizations requiring custom integrations",
+    "features": [
+      "Custom RAWs implementation",
+      "Dedicated compute infrastructure",
+      "White-label solutions",
+      "Custom smart contracts",
+      "Dedicated account manager",
+      "SLA guarantees",
+      "On-premise deployment options"
+    ],
+    "cta": "Contact Sales",
+    "popular": false
+  }
+]

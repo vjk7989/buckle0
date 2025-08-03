@@ -1,0 +1,32 @@
+[
+  {
+    "title": "RAWs Protocol",
+    "description": "Programmable revenue allocation wrappers that automatically split and redistribute revenue among contributors, users, partners, and liquidity pools in real-time.",
+    "icon": "verified"
+  },
+  {
+    "title": "Confidential Computing",
+    "description": "Run private workloads in encrypted compute environments contributed by the community. Pay-per-cycle compute model with privacy by design.",
+    "icon": "frame"
+  },
+  {
+    "title": "Blockchain Payroll",
+    "description": "On-chain payroll automation with integrated tax logic, crypto/fiat conversion, and employee yield-generation on salaries.",
+    "icon": "groups"
+  },
+  {
+    "title": "Real Yield Staking",
+    "description": "Sustainable yield models backed by actual economic activity: payroll flow, compute usage, and platform fees—not inflation.",
+    "icon": "books"
+  },
+  {
+    "title": "Multi-Chain Support",
+    "description": "Seamlessly operate across Ethereum, Polygon, Arbitrum, Optimism, and Base with unified yield and revenue distribution.",
+    "icon": "verified"
+  },
+  {
+    "title": "Developer SDK",
+    "description": "Comprehensive tools and APIs for integrating Hyper's monetization modules into your applications and business models.",
+    "icon": "frame"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "subTitle": "Everything you need to know about Hyper Protocol",
+  "faqs": [
+    {
+      "question": "What is Hyper Protocol?",
+      "answer": "Hyper is a blockchain-native platform that turns every user interaction—compute, spend, or time—into an earning opportunity. We use programmable protocols like RAWs (Revenue Allocation Wrappers) to automatically distribute revenue among contributors, users, and partners in real-time."
+    },
+    {
+      "question": "How do I earn with Hyper?",
+      "answer": "You can earn through multiple channels: spend with integrated services for cashback rewards, receive salary through blockchain payroll with automatic staking, contribute idle compute for encrypted workloads, stake native tokens for real APY, or refer users for transaction revenue share."
+    },
+    {
+      "question": "What makes Hyper's yield different from other DeFi protocols?",
+      "answer": "Hyper offers real yield backed by actual economic activity—payroll flow, compute usage, and platform fees—not inflationary token rewards. Our sustainable yield models ensure long-term value creation for all participants."
+    },
+    {
+      "question": "How does confidential computing work?",
+      "answer": "Hyper's confidential computing allows you to run private workloads in encrypted environments contributed by the community. You earn per compute cycle while maintaining complete privacy through advanced encryption and zero-knowledge proofs."
+    },
+    {
+      "question": "What blockchain networks does Hyper support?",
+      "answer": "Hyper operates across multiple Layer-1 and Layer-2 networks including Ethereum, Polygon, Arbitrum, Optimism, and Base. This multi-chain approach ensures low fees, fast transactions, and broad accessibility."
+    },
+    {
+      "question": "Is my data secure on Hyper?",
+      "answer": "Yes, Hyper prioritizes security and privacy. All data processing happens within decentralized confidential compute environments, preserving privacy and ensuring trust. We use advanced encryption and zero-knowledge proofs to protect user data."
+    },
+    {
+      "question": "How do RAWs (Revenue Allocation Wrappers) work?",
+      "answer": "RAWs are programmable smart contracts that automatically split and redistribute revenue among contributors, users, partners, and liquidity pools in real-time. They enable transparent, automated revenue sharing based on predefined rules."
+    },
+    {
+      "question": "Can developers integrate Hyper into their applications?",
+      "answer": "Absolutely! Hyper provides comprehensive SDKs and APIs for integrating our monetization modules into your applications. Developers can easily add revenue sharing, staking, and compute capabilities to their platforms."
+    }
+  ]
+}

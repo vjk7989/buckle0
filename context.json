@@ -1,0 +1,98 @@
+{
+    "company_overview": {
+      "name": "Hyper",
+      "tagline": "Monetizing User Consumption",
+      "vision": "To turn every user interaction—whether compute, spend, or time—into an earning opportunity using blockchain-native systems.",
+      "mission": "Empower individuals and enterprises with tools that tokenize everyday digital activity into sustainable income streams."
+    },
+  
+    "how_we_work": [
+      "Users interact with Hyper by performing everyday actions—spending, working, computing, or staking.",
+      "Each action is captured by our protocol layers (RAWs, payroll engine, confidential compute, staking modules).",
+      "These layers automatically track, process, and distribute rewards to users based on predefined smart contract rules.",
+      "We use on-chain logic to trigger token flows and revenue splits in real-time, reducing friction and central dependency.",
+      "All data processing happens within decentralized confidential compute environments, preserving privacy and ensuring trust."
+    ],
+  
+    "how_users_earn": [
+      "Spend with integrated services → Get rewarded with cashback in native token or partner tokens.",
+      "Receive salary through blockchain payroll → Automatically stake and earn additional yield.",
+      "Contribute idle compute (laptops, servers) → Run encrypted workloads and earn per cycle.",
+      "Stake native tokens → Receive real, usage-based APY (not inflated token rewards).",
+      "Refer new users or integrate our modules → Earn transaction revenue share through RAWs."
+    ],
+  
+    "products": [
+      {
+        "name": "RAWs (Revenue Allocation Wrappers)",
+        "description": "A programmable protocol that splits and redistributes revenue among contributors, users, partners, and liquidity pools in real time."
+      },
+      {
+        "name": "Blockchain-Led Payroll & Banking",
+        "description": "On-chain payroll automation with integrated tax logic, crypto/fiat conversion, and employee yield-generation on salaries."
+      },
+      {
+        "name": "Staking & Yielding Protocols",
+        "description": "Sustainable yield models backed by actual economic activity: payroll flow, compute usage, and platform fees—not inflation."
+      },
+      {
+        "name": "Decentralized Confidential Computing",
+        "description": "Run private workloads in encrypted compute environments contributed by the community. Pay-per-cycle compute model with privacy by design."
+      },
+      {
+        "name": "HyperToken ($HYP)",
+        "description": "Native utility and reward token backed by protocol revenue and usage. Holders benefit from protocol growth through staking, governance, and liquidity incentives."
+      }
+    ],
+  
+    "revenue_model": {
+      "summary": "The protocol earns by capturing fees from usage, compute cycles, payroll volumes, and B2B integrations.",
+      "distribution": {
+        "platform_fee": "5% of all transactional flows (compute, payroll, revenue split)",
+        "token_sink": "20% of protocol revenue flows into $HYP liquidity pools to support price and reward programs",
+        "developer_rewards": "10% to app and integration partners via RAWs",
+        "operational_reserve": "10% retained for infrastructure and R&D"
+      }
+    },
+  
+    "projections": {
+      "year_1": {
+        "user_base": "100,000+ users",
+        "partner_integrations": "50+ businesses/payroll clients",
+        "revenue_target": "$2M USD",
+        "token_circulation": "25M $HYP in circulation"
+      },
+      "year_2": {
+        "user_base": "500,000+ users",
+        "global_compute_nodes": "10,000+ contributors",
+        "revenue_target": "$15M USD",
+        "TVL": "$50M across staking, payroll, and liquidity"
+      }
+    },
+  
+    "technology_stack": [
+      "Confidential Compute Environments (TEE, FHE, ZK)",
+      "EVM-Compatible Smart Contracts",
+      "Layer-2 Rollups with low gas fees",
+      "Programmable Revenue Routing (RAWs)",
+      "Multi-chain Bridges for user onboarding",
+      "Decentralized Identity & Permissions (DID)"
+    ],
+  
+    "target_users": [
+      "Remote-first teams and global employers needing efficient, crypto-native payroll",
+      "Retail users who want to earn from spending and staking",
+      "Developers building on-chain business models",
+      "Privacy-focused users contributing compute",
+      "Fintech and Web3 apps integrating monetization modules"
+    ],
+  
+    "differentiators": [
+      "Real yield, not inflationary rewards",
+      "Composable protocols like RAWs usable by any third party",
+      "Confidential computing on-chain for privacy-first monetization",
+      "Payroll + compute + staking in one vertically integrated ecosystem",
+      "Protocol revenue is used to support token utility and value, not just platform growth"
+    ]
+  }
+  

@@ -1,0 +1,140 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import HeroSection from "@components/sections/landing/HeroSection.astro";
+import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
+import ClientsSection from "@components/sections/landing/ClientsSection.astro";
+import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
+import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
+import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
+import PricingSection from "@components/sections/pricing/PricingSection.astro";
+import FAQ from "@components/sections/misc/FAQ.astro";
+import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
+import heroImage from "@images/hero-image.avif";
+import faqs from "@data/faqs.json";
+import features from "@data/features.json";
+import pricing from "@data/pricing.json";
+import featureImage from "@images/features-image.avif";
+import construction from "@images/construction-image.avif";
+import tools from "@images/automated-tools.avif";
+import dashboard from "@images/dashboard-image.avif";
+import { partnersData } from "@/data_files/constants";
+
+const avatarSrcs: Array<string> = [
+  "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+  "https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+  "https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&&auto=format&fit=facearea&facepad=3&w=300&h=300&q=80",
+  "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
+];
+---
+
+<MainLayout>
+  <AnnouncementBanner
+    btnId="dismiss-button"
+    btnTitle="Join Hyper Protocol"
+    url="https://github.com/hyper-protocol"
+  />
+
+  <HeroSection
+    title=`Monetize Every Interaction with <span
+        class="text-yellow-500 dark:text-yellow-400">Hyper</span>`
+    subTitle="Turn every user interaction—compute, spend, or time—into an earning opportunity using blockchain-native systems. Experience real yield backed by actual economic activity."
+    primaryBtn="Start Earning"
+    primaryBtnURL="/products"
+    secondaryBtn="View Documentation"
+    secondaryBtnURL="/welcome-to-docs/"
+    withReview={true}
+    avatars={avatarSrcs}
+    rating=`<span class="font-bold">4.9</span> / 5`
+    starCount={5}
+    reviews=`From Over <span class="font-bold">50k</span> Users`
+    src={heroImage}
+    alt="Hyper Protocol dashboard showing blockchain transactions and yield metrics"
+  />
+
+  <ClientsSection
+    title="Trusted by Leading Blockchain Networks"
+    subTitle="Built on the most secure and scalable blockchain infrastructure."
+    partners={partnersData}
+  />
+
+  <FeaturesGeneral
+    title="Revolutionizing Digital Monetization"
+    subTitle="Hyper's blockchain-native protocols transform everyday digital activities into sustainable income streams. From confidential computing to programmable revenue sharing, we're building the future of user-owned economics."
+    src={featureImage}
+    alt="Hyper Protocol ecosystem showing interconnected blockchain modules"
+    features={features}
+  />
+
+  <FeaturesNavs
+    title=`Experience the Power of <span class="text-yellow-500 dark:text-yellow-400">Hyper</span>'s Integrated Ecosystem`
+    tabs={[
+      {
+        heading: "RAWs Protocol",
+        content:
+          "Programmable revenue allocation wrappers that automatically split and redistribute revenue among contributors, users, partners, and liquidity pools in real-time.",
+        svg: "tools",
+        src: tools,
+        alt: "Blockchain network diagram showing revenue flow and distribution",
+        first: true,
+      },
+      {
+        heading: "Confidential Computing",
+        content:
+          "Run private workloads in encrypted compute environments contributed by the community. Pay-per-cycle compute model with privacy by design and real yield generation.",
+        svg: "dashboard",
+        src: dashboard,
+        alt: "Secure computing infrastructure with encryption and privacy protection",
+        second: true,
+      },
+      {
+        heading: "Staking & Yield",
+        content:
+          "Sustainable yield models backed by actual economic activity: payroll flow, compute usage, and platform fees—not inflation. Real APY from real usage.",
+        svg: "house",
+        src: construction,
+        alt: "Staking dashboard showing yield metrics and token distribution",
+      },
+    ]}
+  />
+
+  <TestimonialsSection
+    title="Join the Hyper Revolution"
+    subTitle="Experience the future of user-owned economics with real yield and sustainable income streams."
+    testimonials={[
+      {
+        content:
+          "Hyper has transformed how I think about digital monetization. The RAWs protocol is revolutionary, and the real yield from actual economic activity is exactly what the DeFi space needed!",
+        author: "Alex Chen",
+        role: "DeFi Developer | Web3 Labs",
+        avatarSrc:
+          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+      },
+    ]}
+    statistics={[
+      {
+        count: "50k+",
+        description:
+          "active users earning from everyday digital activities",
+      },
+      {
+        count: "15%",
+        description:
+          "average APY from real economic activity, not inflation",
+      },
+      {
+        count: "10k+",
+        description:
+          "compute nodes contributing to confidential computing network",
+      },
+      {
+        count: "$2M+",
+        description: "in protocol revenue distributed to users",
+      },
+    ]}
+  />
+
+  <PricingSection pricing={pricing} />
+
+  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
+</MainLayout>
